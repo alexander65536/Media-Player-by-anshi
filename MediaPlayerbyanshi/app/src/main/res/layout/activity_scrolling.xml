@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.anandshivalkar.mediaplayerbyanshi.ScrollingActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:text="Sweet child of mine"
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:onClick="play_scom"/>
+
+            <Button
+                android:text="Billie Jean"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/button3"
+                android:onClick="play_bj"/>
+
+            <Button
+                android:text="Bohemian Rhapsody"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/button4"
+                android:onClick="play_br"/>
+
+            <Button
+                android:text="Hey Jude"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/button5"
+                android:onClick="play_hj"/>
+
+            <Button
+                android:text="Back in black"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/button6"
+                android:onClick="play_bib"/>
+
+            <Button
+                android:text="Stairway to Heaven"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/button7"
+                android:onClick="play_sth"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
